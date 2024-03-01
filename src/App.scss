@@ -1,0 +1,83 @@
+@import "src/Config/Styles/BaseColor.scss";
+
+// Scrollbar style
+*::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: $brown;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $darkBrown;
+  border-radius: 1.25rem;
+  border: 1px solid $darkBrown;
+}
+
+.app-header {
+  height: 3.5rem;
+  line-height: 3rem;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  div {
+    button {
+      margin: auto 0;
+      color: $darkBrown;
+      font-size: 1rem;
+    }
+
+    .header-info {
+      margin-right: 2rem;
+
+      .header-icon {
+        color: #776b5d;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.app-content {
+  margin: 0;
+  padding: 1rem;
+}
+
+.app-footer {
+  height: 2rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.logo-wrap {
+  display: flex;
+
+  img {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  p {
+    color: #FEECE2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 3rem;
+  }
+}
+
+.ant-layout-sider,
+.ant-layout-sider-children > ul {
+  background: $darkBrown !important;
+}
+.ant-layout-header {
+  background: $lightBrown !important;
+}

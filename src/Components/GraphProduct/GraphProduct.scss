@@ -1,0 +1,19 @@
+@import "src/Config/Styles/BaseColor.scss";
+
+.graph-product-container {
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  padding: 0;
+
+  h3 {
+    color: $grey;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    padding: 0;
+  }
+
+  .ant-card-body {
+    padding: 0.5rem 1rem;
+  }
+}

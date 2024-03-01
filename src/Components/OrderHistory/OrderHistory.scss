@@ -1,0 +1,20 @@
+@import "src/Config/Styles/BaseColor.scss";
+
+.order-history-container {
+  border-radius: 1rem;
+  padding: 0;
+
+  h3 {
+    color: $grey;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+
+  .ant-card-body {
+    padding: 0.25rem 1rem;
+  }
+}

@@ -45,7 +45,7 @@ const Sider: React.FC<ISider> = (props) => {
       }}
     >
       <span className="logo-wrap">
-        <img src="/Nesara.Png" alt="logo" />
+        <img src="Nesara.Png" alt="logo" />
         {!collapsed && <p>NESARA</p>}
       </span>
       <Menu
